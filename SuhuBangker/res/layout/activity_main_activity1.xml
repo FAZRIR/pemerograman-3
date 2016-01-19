@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Celcius"></TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/textCelcius" android:layout_width="fill_parent" android:inputType="numberSigned|numberDecimal"></EditText>
+<Button   android:layout_height="wrap_content" android:id="@+id/buttonKonversi" android:text="conversi" android:layout_width="fill_parent" android:onClick="KonversiSuhu"></Button>
+<TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kelvin"></TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/textKelvin" android:editable="false" android:layout_width="fill_parent"></EditText>
+<TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fahrenheit"></TextView>
+<EditText android:layout_height="wrap_content" android:editable="false" android:id="@+id/textFahren" android:layout_width="fill_parent"></EditText>
+<TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reamur"></TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/textReamur" android:editable="false" android:layout_width="fill_parent"></EditText>
+<Button android:layout_height="wrap_content" android:id="@+id/buttonExit" android:layout_width="fill_parent" android:text="Exit" android:onClick="keluar"></Button>
+</LinearLayout>
